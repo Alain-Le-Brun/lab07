@@ -22,5 +22,8 @@ public class Lab07 {
         vect_b = new Vecteur(0, 1);
         vect_a.prodComplexe(vect_b);
         vect_a.affVecteur();
+        int scalaire = 2;
+        vect_1.prodScalaire(scalaire);
+        vect_1.affVecteur();
     }
 }

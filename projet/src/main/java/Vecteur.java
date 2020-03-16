@@ -29,11 +29,15 @@ public class Vecteur{
         sortie = Math.sqrt(this.getComp_1() * this.getComp_1() + this.getComp_2() * this.getComp_2());
         return sortie;
     }
-    public void prodComplexe(Vecteur vecEntree){
+    public void prodComplexe(Vecteur vecEntree) {
         double comp_1 = this.getComp_1() * vecEntree.getComp_1() - this.getComp_2() * vecEntree.getComp_2();
         double comp_2 = this.getComp_1() * vecEntree.getComp_2() + this.getComp_2() * vecEntree.getComp_1();
         this.nb_a = comp_1;
         this.nb_b = comp_2;
+    }
+    public void prodScalaire(int scalaire){
+        this.nb_a = this.nb_a * scalaire;
+        this.nb_b = this.nb_b * scalaire;
     }
     public String enChaine(){
         String sortie = "(" + nb_a + ", " + nb_b + ")"  + "\n";
