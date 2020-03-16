@@ -25,5 +25,7 @@ public class Lab07 {
         int scalaire = 2;
         vect_1.prodScalaire(scalaire);
         vect_1.affVecteur();
+        vect_1.prodScalaire(3);
+        vect_1.affVecteur();
     }
 }
