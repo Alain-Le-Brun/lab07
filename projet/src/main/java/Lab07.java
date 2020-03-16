@@ -8,7 +8,8 @@ public class Lab07 {
         vect_1.affVecteur();
         vect_1.diff(vect_3);
         vect_1.affVecteur();
-        int euc = vect_1.prodEuclid();
+        Vecteur vect_a = new Vecteur(1, 1);
+        double euc = vect_a.prodEuclid();
         System.out.println("euc: " + euc);
     }
 }
