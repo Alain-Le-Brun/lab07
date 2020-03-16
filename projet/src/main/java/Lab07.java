@@ -11,5 +11,11 @@ public class Lab07 {
         Vecteur vect_a = new Vecteur(1, 1);
         double euc = vect_a.prodEuclid();
         System.out.println("euc: " + euc);
+        vect_a = new Vecteur(2, 3);
+        Vecteur vect_b = new Vecteur(1, 2);
+        vect_a.affVecteur();
+        vect_a = new Vecteur(1, 1);
+        vect_b = new Vecteur(0, 1);
+        vect_a.affVecteur();
     }
 }

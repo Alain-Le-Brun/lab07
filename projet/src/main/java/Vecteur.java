@@ -26,7 +26,7 @@ public class Vecteur{
     }
     public double prodEuclid(){
         double sortie = 0;
-        sortie = Math.sqrt(this.nb_a * this.nb_a + this.nb_b * this.nb_b);
+        sortie = Math.sqrt(this.getComp_1() * this.getComp_1() + this.getComp_2() * this.getComp_2());
         return sortie;
     }
     public String enChaine(){
