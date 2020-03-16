@@ -25,7 +25,7 @@ public class Vecteur{
         this.nb_b = this.nb_b - vecEntree.getComp_2();
     }
     public String enChaine(){
-        String sortie = "(" + nb_a + ", aaa" + nb_b + ")"  + "\n";
+        String sortie = "(" + nb_a + ", " + nb_b + ")"  + "\n";
         return sortie;
     }
     public void affVecteur(){
