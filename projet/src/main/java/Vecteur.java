@@ -15,9 +15,14 @@ public class Vecteur{
     public int getComp_2(){
         return this.nb_b;
     }
+
     public void add(Vecteur vecEntree){
         this.nb_a = this.nb_a + vecEntree.getComp_1();
         this.nb_b = this.nb_b + vecEntree.getComp_2();
+    }
+    public void diff(Vecteur vecEntree){
+        this.nb_a = this.nb_a - vecEntree.getComp_1();
+        this.nb_b = this.nb_b - vecEntree.getComp_2();
     }
     public String enChaine(){
         String sortie = "(" + nb_a + ", " + nb_b + ")"  + "\n";
