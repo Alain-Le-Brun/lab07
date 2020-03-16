@@ -8,5 +8,8 @@ public class Lab07 {
         vect_1.affVecteur();
         vect_1.diff(vect_3);
         vect_1.affVecteur();
+        int scalaire = 2;
+        vect_1.prodScalaire(scalaire);
+        vect_1.affVecteur();
     }
 }

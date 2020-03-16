@@ -24,6 +24,10 @@ public class Vecteur{
         this.nb_a = this.nb_a - vecEntree.getComp_1();
         this.nb_b = this.nb_b - vecEntree.getComp_2();
     }
+    public void prodScalaire(int scalaire){
+        this.nb_a = this.nb_a * scalaire;
+        this.nb_b = this.nb_b * scalaire;
+    }
     public String enChaine(){
         String sortie = "(" + nb_a + ", " + nb_b + ")"  + "\n";
         return sortie;
