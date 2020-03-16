@@ -24,6 +24,12 @@ public class Vecteur{
         this.nb_a = this.nb_a - vecEntree.getComp_1();
         this.nb_b = this.nb_b - vecEntree.getComp_2();
     }
+    public void prodComplexe(Vecteur vecEntree){
+        int comp_1 = this.getComp_1() * vecEntree.getComp_1() - this.getComp_2() * vecEntree.getComp_2();
+        int comp_2 = this.getComp_1() * vecEntree.getComp_2() + this.getComp_2() * vecEntree.getComp_1();
+        this.nb_a = comp_1;
+        this.nb_b = comp_2;
+    }
     public String enChaine(){
         String sortie = "(" + nb_a + ", " + nb_b + ")"  + "\n";
         return sortie;

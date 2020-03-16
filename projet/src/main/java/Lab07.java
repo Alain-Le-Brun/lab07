@@ -8,5 +8,9 @@ public class Lab07 {
         vect_1.affVecteur();
         vect_1.diff(vect_3);
         vect_1.affVecteur();
+        Vecteur vect_a = new Vecteur(2, 3);
+        Vecteur vect_b = new Vecteur(1, 2);
+        vect_a.prodComplexe(vect_b);
+        vect_a.affVecteur();
     }
 }
