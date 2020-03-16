@@ -16,6 +16,11 @@ public class Lab07 {
         vect_a.affVecteur();
         vect_a = new Vecteur(1, 1);
         vect_b = new Vecteur(0, 1);
+        vect_a.prodComplexe(vect_b);
+        vect_a.affVecteur();
+        vect_a = new Vecteur(1, 1);
+        vect_b = new Vecteur(0, 1);
+        vect_a.prodComplexe(vect_b);
         vect_a.affVecteur();
     }
 }
