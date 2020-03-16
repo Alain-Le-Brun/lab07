@@ -6,7 +6,7 @@ public class Lab07 {
         vect_1.add(vect_2);
         Vecteur vect_3 = new Vecteur(2, -2);
         vect_1.affVecteur();
-        vect_1.add(vect_3);
+        vect_1.diff(vect_3);
         vect_1.affVecteur();
     }
 }
