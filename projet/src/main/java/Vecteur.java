@@ -24,6 +24,11 @@ public class Vecteur{
         this.nb_a = this.nb_a - vecEntree.getComp_1();
         this.nb_b = this.nb_b - vecEntree.getComp_2();
     }
+    public int prodEuclid(){
+        int sortie = 0;
+        sortie = this.nb_a * this.nb_a + this.nb_b * this.nb_b;
+        return sortie;
+    }
     public String enChaine(){
         String sortie = "(" + nb_a + ", " + nb_b + ")"  + "\n";
         return sortie;
