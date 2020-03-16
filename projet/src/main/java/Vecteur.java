@@ -1,6 +1,6 @@
 public class Vecteur{
-    public int nb_a = 0;
-    public int nb_b = 0;
+    public double nb_a = 0;
+    public double nb_b = 0;
     public Vecteur(){
         this.nb_a = 0;
         this.nb_b = 0;
@@ -9,10 +9,10 @@ public class Vecteur{
         this.nb_a = nb_1;
         this.nb_b = nb_2;
     }
-    public int getComp_1(){
+    public double getComp_1(){
         return this.nb_a;
     }
-    public int getComp_2(){
+    public double getComp_2(){
         return this.nb_b;
     }
 
